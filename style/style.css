@@ -1,0 +1,50 @@
+body{
+  background-color: #9BC2CF;
+}
+#wrapper{
+  width: 100%;
+  height: 100%;
+}
+.blk {
+  width:70px;
+  height:70px;
+  overflow:hidden;
+}
+td{
+  border: 2px solid black;
+}
+h4{
+  margin: 0;
+  padding: 0;
+}
+ 
+ #highScore{
+  
+   height: 200px;
+   width: 250px;
+   color: #000;
+   background-color: lightblue;
+   margin: 0 auto;
+ }
+ #count{
+  width: 250px;
+  height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: orange;
+ }
+.playerInput{
+  background-color: lightblue;
+  width: 250px;
+  margin: 0 auto;
+}
+.playerInput > input{
+  border: 2px solid black;
+}
+@media only screen 
+and (max-device-width: 600px){
+      #wrapper{
+    width: 400px;
+    height: 700px%;
+}
+    }
